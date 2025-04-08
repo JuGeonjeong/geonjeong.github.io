@@ -38,7 +38,9 @@ export default function Resume() {
             <Button>
               <a
                 className="group flex rounded-lg transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 min-h-[56px] items-center justify-center gap-3 bg-white/20 px-6 py-4 font-semibold text-white backdrop-blur-sm hover:bg-white/30 hover:shadow-lg active:bg-white/40 sm:min-h-[48px]"
-                href="/resume.pdf"
+                href="./resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="h-5 w-5 transition-transform group-hover:scale-110">
                   <svg
